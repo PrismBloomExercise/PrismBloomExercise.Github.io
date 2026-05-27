@@ -1,0 +1,5 @@
+{
+	"zipApiUrl": "https://api.zippopotam.us/us/{zip}",
+	"defaultRadiusMiles": 10,
+	"appsScriptUrl": "https://script.google.com/macros/s/AKfycbwIWbWDsUx_bYAvFQUsjHWGbEz6tVL9o0UR1ef2zHI8_ophIzZ9FCdJo0TKNX_RZo4FSQ/exec"
+}

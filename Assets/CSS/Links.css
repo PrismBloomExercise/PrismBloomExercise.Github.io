@@ -1,0 +1,64 @@
+:root{
+  --bg:#000000;
+  --card:#171720;
+  --text:#f1f1f3;
+  --muted:#b8b8c7;
+  --border:#2a2a38;
+  --accent:#b11a25;
+  --topbar-bg:#0f0f12;
+  --footer-bg:#0f0f12;
+  --link-color:#0f0f12;
+  --button-bg:#0f0f12;
+  --button-text:#0f0f12;
+  --hero-overlay:#0f0f12;
+  
+}
+
+*{box-sizing:border-box}
+body{
+	padding-top: 80px;
+	margin:0;
+	font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+	background:var(--bg);
+	color:var(--text);
+	padding-top: var(--header-height, 0px);
+	}
+a{color:inherit}
+
+/*-------------- Links --------------*/
+.list{display:flex;flex-direction:column;gap:10px}
+.badge{display:inline-block;margin-top:8px;color:var(--muted);font-size:13px}
+
+/*-------------- Links Panel --------------*/
+.links-panel{
+	margin-top:14px;
+}
+
+.links-body{
+  padding:16px;
+  background:var(--card);
+  border-left:1px solid var(--border);
+  border-right:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  border-radius:0 0 18px 18px;
+}
+
+.links-body .grid{
+  gap:14px;
+}
+
+.links-section-title{
+	color:var(--accent);
+}
+
+.links-item{
+	color:var(--link-color);
+	text-decoration:underline;
+}
+
+.links-item-coming-soon{
+	color: var(--muted);
+	text-decoration: none;
+	cursor: default;
+	pointer-events: none;
+}

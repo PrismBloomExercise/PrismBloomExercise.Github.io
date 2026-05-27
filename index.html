@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Madison's professional bio" />
+  <link rel="icon" data-site-favicon href="">
+  <link rel="stylesheet" href="./Assets/CSS/HeaderFooter.css" />
+  <link rel="stylesheet" href="./Assets/CSS/Index.css" />
+  <title>Madison Arndt</title>
+</head>
+<body data-page="home">
+
+  <div id="shared-header"></div>
+
+  <main>
+    <div class="container" style="padding-top:22px">
+      <div class="hero">
+        <div class="hero-bg" data-hero-bg></div>
+		<button class="hero-headshot-link" data-hero-headshot-link>
+			<img class="hero-headshot" data-hero-headshot alt="Headshot">
+		</button>
+        <div class="hero-content">
+          <h1 data-hero-headline></h1>
+          <div data-hero-body></div>
+        </div>
+      </div>
+  
+      <div class="grid" style="margin-top:14px" data-dynamic-sections></div>
+    </div>
+  </main>
+  
+  <div class="img-modal" data-img-modal hidden>
+	<button class="img-modal-close" data-img-modal-close>×</button>
+	<img class="img-modal-content" data-img-modal-content>
+  </div>
+
+  <div id="shared-footer"></div>
+
+  <script type="module" src="./Assets/JS/Index.js"></script>
+</body>
+</html>

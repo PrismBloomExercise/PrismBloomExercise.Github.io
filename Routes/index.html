@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="Prism Bloom Exercise routes" />
+	<link rel="icon" data-site-favicon href="">
+	<link rel="stylesheet" href="/PrismBloomExercise/Assets/CSS/HeaderFooter.css" />
+	<link rel="stylesheet" href="/PrismBloomExercise/Assets/CSS/Routes.css" />
+	<title>Prism Bloom Exercise Routes</title>
+</head>
+<body data-page="routes">
+
+	<div id="shared-header"></div>
+
+	<main>
+		<div class="container routes-container">
+			<section class="routes-hero">
+				<h1>Routes</h1>
+				<p>Search and filter Prism Bloom Exercise routes by name, activity, route type, difficulty, distance, location, or enter a ZIP code to search nearby routes.</p>
+			</section>
+
+			<section class="routes-controls" aria-label="Route filters">
+				<div class="control-group search-wide">
+					<label for="routeSearch">Search</label>
+					<input id="routeSearch" data-route-search type="search" inputmode="search" placeholder="Search routes, activities, locations, or ZIP...">
+				</div>
+
+				<div class="control-group">
+					<label for="activityFilter">Activity</label>
+					<select id="activityFilter" data-activity-filter>
+						<option value="">All activities</option>
+					</select>
+				</div>
+
+				<div class="control-group">
+					<label for="routeTypeFilter">Route type</label>
+					<select id="routeTypeFilter" data-route-type-filter>
+						<option value="">All route types</option>
+					</select>
+				</div>
+
+				<div class="control-group">
+					<label for="difficultyFilter">Difficulty</label>
+					<select id="difficultyFilter" data-difficulty-filter>
+						<option value="">All difficulties</option>
+					</select>
+				</div>
+
+				<div class="control-group">
+					<label for="radiusFilter">Radius</label>
+					<select id="radiusFilter" data-radius-filter>
+						<option value="5">5 mi</option>
+						<option value="10" selected>10 mi</option>
+						<option value="25">25 mi</option>
+						<option value="50">50 mi</option>
+						<option value="100">100 mi</option>
+					</select>
+				</div>
+
+				<div class="control-group button-group">
+					<button data-clear-filters type="button">Clear filters</button>
+				</div>
+			</section>
+
+			<div class="routes-status" data-routes-status>Loading routes...</div>
+			<section class="routes-grid" data-routes-list aria-label="Route list"></section>
+		</div>
+	</main>
+
+	<div id="shared-footer"></div>
+
+	<script type="module" src="/PrismBloomExercise/Assets/JS/Routes.js?v=20260527-merged-search-zip"></script>
+</body>
+</html>

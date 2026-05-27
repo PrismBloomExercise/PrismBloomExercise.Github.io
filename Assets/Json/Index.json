@@ -1,0 +1,50 @@
+{
+	"hero": {
+		"headline": "Prism Bloom Exercise",
+		"body": [
+			"Prism Bloom Exercise is a free outdoor exercise and activity community focused on helping people stay active, social, and connected through outdoor events and group activities.",
+			"",
+			"Our events are free to attend and open to the community. Activities can include walking, biking, hiking, kayaking, and a wide variety of other outdoor meetups and adventures.",
+			"",
+			"If an activity requires equipment, such as a kayak, participants are expected to bring their own equipment or rent locally. When possible, rental options and recommendations are provided ahead of events through the community Discord."
+		]
+	},
+	"sections": [
+		{
+		"title": "About Prism Bloom Exercise",
+		"body": [
+			"Prism Bloom Exercise is a free outdoor exercise and activity community focused on helping people stay active, social, and connected through outdoor adventures and group events.",
+			"",
+			"The group is currently centered around Anoka and nearby areas, with plans to continue growing into new locations and communities over time.",
+			"",
+			"The community focuses on creating welcoming outdoor events where people can participate at their own pace while meeting others with similar interests.",
+			"",
+			"Activities may include walking, hiking, biking, kayaking, fitness meetups, seasonal outdoor activities, and community driven event ideas. Prism Bloom Exercise supports a wide range of outdoor activities and difficulty levels. Some events are designed for relaxed and beginner friendly participation, while others may involve more demanding physical activity, distance, terrain, endurance, or outdoor experience.",
+			"",
+			"All standard events are free to attend. Some activities may require personal equipment such as kayaks, bicycles, or other outdoor gear. Participants are responsible for bringing their own equipment or arranging rentals when needed. Rental suggestions and local options are often shared through the Discord community when available.",
+			"",
+			"Prism Bloom Exercise uses Discord as the primary event, planning, and discussion hub. Additional social platforms are primarily used for sharing photos, updates, community content, and occasional event schedules. The community also maintains Google Calendars for different location centers to help members track upcoming activities and events.",
+			"",
+			"The Discord community includes channels and forms where members can discuss events, equipment, activity ideas, and community feedback. If the community wants a new discussion channel or topic area, it can be added to better support member interests and communication.",
+			"",
+			"Community feedback is important to the group. Members can use forms and discussion channels to suggest events, discuss equipment, coordinate activities, or request new channel types and community features.",
+			"",
+			"Events may change based on weather, safety conditions, or participation needs. Members are encouraged to prepare appropriately for outdoor activities and participate responsibly based on their own comfort level, experience, and ability.",
+			"",
+			"Whether you are looking to stay active, explore new places, meet people, or try new outdoor activities, Prism Bloom Exercise is built to stay flexible, welcoming, and community driven."
+		]
+		},
+		{
+		"title": "Disclaimer",
+		"body": [
+			"Participation in Prism Bloom Exercise events and activities is completely voluntary. Outdoor activities may involve inherent risks including, but not limited to, physical injury, bodily harm, property damage, weather conditions, terrain hazards, wildlife, water related risks, transportation risks, or actions taken by other individuals.",
+			"",
+			"By participating in any Prism Bloom Exercise activity or event, participants acknowledge and accept these potential risks and agree to take personal responsibility for their own safety, preparedness, equipment, actions, and wellbeing.",
+			"",
+			"Prism Bloom Exercise, its organizers, event planners, volunteers, participants, partnered locations, parks, property owners, and associated individuals are not responsible or liable for injuries, damages, losses, accidents, or incidents that may occur during or related to participation in activities or events.",
+			"",
+			"Participants are expected to act responsibly, follow applicable laws and safety guidance, respect others, and use reasonable judgment while participating in events and activities."
+		]
+		}
+	]
+}

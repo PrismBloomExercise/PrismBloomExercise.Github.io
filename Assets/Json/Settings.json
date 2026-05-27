@@ -1,0 +1,46 @@
+{
+	"site": {
+		"tagline": "",
+		"metaDescription": ""
+	},
+	"brand": {
+		"title": "Prism Bloom Exercise",
+		"email": "Prism.Bloom.Exercise@gmail.com",
+		"logo": "/PrismBloomExercise/Assets/Images/Glowing rainbow bloom in a dark realm CIR.png",
+		"background": "/PrismBloomExercise/Assets/Images/Glowing tree and rainbow waterfalls.png",
+		"copyright": "\u00a9 2026 Prism Bloom Exercise. All rights reserved.",
+		"brandContext": "",
+		"colors": {
+			"bg": "#000000",
+			"text": "#74d2f4",
+			"muted": "#b8b8c2",
+			"card": "#17171c",
+			"border": "#2a2a34",
+			"accent": "#f116a5",
+			"accentSoft": "rgba(177,26,37,.15)",
+			"topbarBg": "#f116a5",
+			"footerBg": "#f116a5",
+			"linkColor": "#c718f9",
+			"buttonBg": "#0f0f12",
+			"buttonText": "#c718f9",
+			"heroOverlay": "#0f0f12"
+		}
+	},
+	"nav": {
+		"homePath": "/PrismBloomExercise/index.html",
+		"items": [
+			{
+				"label": "Home",
+				"href": "/PrismBloomExercise/index.html"
+			},
+			{
+				"label": "Routes",
+				"href": "/PrismBloomExercise/Routes/index.html"
+			},
+			{
+				"label": "Links",
+				"href": "/PrismBloomExercise/Links/index.html"
+			}
+		]
+	}
+}
