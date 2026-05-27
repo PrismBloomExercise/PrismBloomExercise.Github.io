@@ -6,8 +6,8 @@
 	"brand": {
 		"title": "Prism Bloom Exercise",
 		"email": "Prism.Bloom.Exercise@gmail.com",
-		"logo": "/PrismBloomExercise/Assets/Images/Glowing rainbow bloom in a dark realm CIR.png",
-		"background": "/PrismBloomExercise/Assets/Images/Glowing tree and rainbow waterfalls.png",
+		"logo": "/Assets/Images/Glowing rainbow bloom in a dark realm CIR.png",
+		"background": "/Assets/Images/Glowing tree and rainbow waterfalls.png",
 		"copyright": "\u00a9 2026 Prism Bloom Exercise. All rights reserved.",
 		"brandContext": "",
 		"colors": {
@@ -27,19 +27,19 @@
 		}
 	},
 	"nav": {
-		"homePath": "/PrismBloomExercise/index.html",
+		"homePath": "/index.html",
 		"items": [
 			{
 				"label": "Home",
-				"href": "/PrismBloomExercise/index.html"
+				"href": "/index.html"
 			},
 			{
 				"label": "Routes",
-				"href": "/PrismBloomExercise/Routes/index.html"
+				"href": "/Routes/index.html"
 			},
 			{
 				"label": "Links",
-				"href": "/PrismBloomExercise/Links/index.html"
+				"href": "/Links/index.html"
 			}
 		]
 	}
