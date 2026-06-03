@@ -50,6 +50,43 @@ function getFirstValue(object, keys){
 	return "";
 }
 
+function applyPageText(){
+	const title = document.querySelector("[data-routes-title]");
+	const description = document.querySelector("[data-routes-description]");
+	const search = document.querySelector("[data-route-search]");
+
+	if(title){
+		title.textContent = normalizeText(routesConfig.pageTitle) || "Routes";
+	}
+
+	if(description){
+		description.innerHTML = "";
+
+		const lines = Array.isArray(routesConfig.pageDescription)
+			? routesConfig.pageDescription
+			: [];
+
+		lines.forEach(line => {
+			if(!normalizeText(line)){
+				const spacer = document.createElement("div");
+				spacer.style.height = "12px";
+				description.appendChild(spacer);
+				return;
+			}
+
+			const p = document.createElement("p");
+			p.textContent = line;
+			description.appendChild(p);
+		});
+	}
+
+	if(search){
+		search.placeholder =
+			normalizeText(routesConfig.searchPlaceholder) ||
+			"Search routes, locations, or ZIP...";
+	}
+}
+
 function normalizeObjectKey(key){
 	return String(key || "").toLowerCase().replace(/[^a-z0-9]/g, "");
 }
@@ -89,9 +126,8 @@ function getRouteSearchText(route){
 		route.activity,
 		getRouteType(route),
 		getDifficulty(route),
-		route.distance,
-		route.distanceUnit,
-		getAverageMinutes(route),
+		route.distanceText,
+		route.duration,
 		getRouteLocationText(route)
 	].filter(Boolean).join(" ");
 }
@@ -198,45 +234,11 @@ function createField(label, value){
 }
 
 function formatDistance(route){
-	const distance = normalizeText(route.distance);
-	const unit = normalizeText(route.distanceUnit);
-
-	if(!distance){
-		return "Not listed";
-	}
-
-	return unit ? `${distance} ${unit}` : distance;
-}
-
-function getAverageTimeValue(route){
-	return getAverageMinutes(route);
+	return normalizeText(route.distanceText) || "Distance Unknown";
 }
 
 function formatAverageTime(route){
-	const rawValue = getAverageTimeValue(route);
-
-	if(!rawValue){
-		return "Unknown";
-	}
-
-	const value = Number(rawValue);
-
-	if(Number.isNaN(value) || value <= 0){
-		return rawValue;
-	}
-
-	if(value < 60){
-		return `~${value} min`;
-	}
-
-	const hours = Math.floor(value / 60);
-	const remainingMinutes = value % 60;
-
-	if(remainingMinutes === 0){
-		return `~${hours} hr`;
-	}
-
-	return `~${hours} hr ${remainingMinutes} min`;
+	return normalizeText(route.duration) || "Duration Unknown";
 }
 
 function formatLocation(location){
@@ -267,7 +269,7 @@ function renderRouteCard(route){
 	if(route.activity) tags.appendChild(createTag(route.activity));
 	if(routeType) tags.appendChild(createTag(routeType));
 	if(difficulty) tags.appendChild(createTag(difficulty));
-	if(route.distance) tags.appendChild(createTag(formatDistance(route)));
+	if(route.distanceText) tags.appendChild(createTag(formatDistance(route)));
 	tags.appendChild(createTag(formatAverageTime(route)));
 
 	const summary = document.createElement("div");
@@ -565,6 +567,9 @@ async function main(){
 	await HF_main();
 
 	routesConfig = await loadBranch("Routes");
+
+	applyPageText();
+
 	await loadRoutes();
 	setupFilters();
 	renderRoutes();

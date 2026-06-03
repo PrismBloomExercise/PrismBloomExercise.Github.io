@@ -16,14 +16,14 @@
 	<main>
 		<div class="container routes-container">
 			<section class="routes-hero">
-				<h1>Routes</h1>
-				<p>Search and filter Prism Bloom Exercise routes by name, activity, route type, difficulty, distance, location, or enter a ZIP code to search nearby routes.</p>
+				<h1 data-routes-title></h1>
+				<div data-routes-description></div>
 			</section>
 
 			<section class="routes-controls" aria-label="Route filters">
 				<div class="control-group search-wide">
 					<label for="routeSearch">Search</label>
-					<input id="routeSearch" data-route-search type="search" inputmode="search" placeholder="Search routes, locations, or ZIP...">
+					<input id="routeSearch" data-route-search type="search" inputmode="search" placeholder="">
 				</div>
 
 				<div class="control-group">
@@ -70,6 +70,6 @@
 
 	<div id="shared-footer"></div>
 
-	<script type="module" src="/Assets/JS/Routes.js?v=20260527-merged-search-zip"></script>
+	<script type="module" src="/Assets/JS/Routes.js?v=20260603-json-page-text"></script>
 </body>
 </html>
