@@ -49,6 +49,15 @@ a{color:inherit}
 	max-width:75ch;
 }
 
+[data-routes-description]{
+	color:var(--muted);
+	max-width:75ch;
+}
+
+[data-routes-description] p{
+	margin:0;
+}
+
 .routes-controls{
 	display:grid;
 	grid-template-columns:minmax(260px, 2fr) 1fr 1fr 1fr 130px auto;
