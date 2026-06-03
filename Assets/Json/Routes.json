@@ -1,7 +1,7 @@
 {
 	"zipApiUrl": "https://api.zippopotam.us/us/{zip}",
 	"defaultRadiusMiles": 10,
-	"appsScriptUrl": "https://script.google.com/macros/s/AKfycbwIWbWDsUx_bYAvFQUsjHWGbEz6tVL9o0UR1ef2zHI8_ophIzZ9FCdJo0TKNX_RZo4FSQ/exec",
+	"appsScriptUrl": "https://script.google.com/macros/s/AKfycbzXZ4_sFPCAdKsQb0udslRMol3Zs1P6kyfI4zlhB-_RJvJ-xkgClLBmvpKV90LDTbSPjA/exec",
 	"pageTitle": "Routes",
 	"pageDescription": [
 		"Search and filter Prism Bloom Exercise routes by name, activity, route type, difficulty, distance, location, or enter a ZIP code to search nearby routes.",
