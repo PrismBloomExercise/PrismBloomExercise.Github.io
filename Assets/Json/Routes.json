@@ -6,6 +6,8 @@
 	"pageDescription": [
 		"Search and filter Prism Bloom Exercise routes by name, activity, route type, difficulty, distance, location, or enter a ZIP code to search nearby routes.",
 		" ",
+		"Distance is calculated using a straight-line distance between location points and does not account for curves, turns, or the actual travel path.",
+		" ",
 		"Route information is currently being expanded as Prism Bloom Exercise continues to grow. The route library is transitioning to a new data-driven system that stores route details.",
 		"During this transition, some routes may have limited information available while route data is being reviewed, mapped, and added.",
 		"If a route appears incomplete, additional information is still being documented and will be added as it becomes available."
