@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="description" content="Prism Bloom Exercise events" />
+	<link rel="icon" data-site-favicon href="">
+	<link rel="stylesheet" href="/Assets/CSS/HeaderFooter.css" />
+	<link rel="stylesheet" href="/Assets/CSS/Events.css" />
+	<title>Prism Bloom Exercise Events</title>
+</head>
+<body data-page="events">
+
+	<div id="shared-header"></div>
+
+	<main>
+		<div class="container events-container">
+			<section class="events-hero">
+				<h1 data-events-title></h1>
+				<div data-events-description></div>
+			</section>
+
+			<section class="events-controls" aria-label="Event filters">
+				<div class="control-group search-wide">
+					<label for="eventSearch">Search</label>
+					<input id="eventSearch" data-event-search type="search" inputmode="search" placeholder="">
+				</div>
+
+				<div class="control-group">
+					<label for="activityFilter">Activity</label>
+					<select id="activityFilter" data-activity-filter>
+						<option value="">All activities</option>
+					</select>
+				</div>
+
+				<div class="control-group">
+					<label for="difficultyFilter">Difficulty</label>
+					<select id="difficultyFilter" data-difficulty-filter>
+						<option value="">All difficulties</option>
+					</select>
+				</div>
+
+				<div class="control-group button-group">
+					<button data-clear-filters type="button">Clear filters</button>
+				</div>
+			</section>
+
+			<div class="events-status" data-events-status>Loading events...</div>
+			<section class="events-grid" data-events-list aria-label="Event list"></section>
+		</div>
+	</main>
+
+	<div id="shared-footer"></div>
+
+	<script type="module" src="/Assets/JS/Events.js?v=20260616-events-json-shape"></script>
+</body>
+</html>
