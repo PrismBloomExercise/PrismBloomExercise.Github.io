@@ -34,6 +34,10 @@
 				"href": "/index.html"
 			},
 			{
+				"label": "Events",
+				"href": "/Events/index.html"
+			},
+			{
 				"label": "Routes",
 				"href": "/Routes/index.html"
 			},

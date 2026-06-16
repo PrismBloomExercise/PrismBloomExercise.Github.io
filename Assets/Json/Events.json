@@ -1,0 +1,12 @@
+{
+	"appsScriptUrl": "https://script.google.com/macros/s/AKfycbyVL4m0yX3CZ0ZiKUZblEdJ7b3iMPYQ9N3HkZociWgR60PFex17QJx5Obe-wD2UgCFP/exec",
+	"pageTitle": "Events",
+	"pageDescription": [
+		"Search and filter Prism Bloom Exercise event options by name, activity, difficulty, duration, route, location, parking, or meeting point.",
+		" ",
+		"Event information is currently being expanded as Prism Bloom Exercise continues to grow. The event library is transitioning to a new data-driven system that stores event details.",
+		"During this transition, some events may have limited information available while event data is being reviewed, and added.",
+		"Some event details are still being documented. If a duration, parking point, or meeting point is not listed yet, the card will show the current placeholder from the event data."
+	],
+	"searchPlaceholder": "Search events, routes, locations, parking, or meeting points..."
+}
